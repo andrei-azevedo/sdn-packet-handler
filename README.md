@@ -3,6 +3,7 @@
 - [ ] Fill docs
 - [ ] Reorg folder/file structure
 - [ ] Receive CSV filepath from command line
+- [ ] Check if CSV already exists to insert first base row
 - [ ] Fill requirements.txt (pipreqs not working as expected)
 - [ ] Script to spam TCP requests
 - [ ] Entire setup in a single docker-compose
