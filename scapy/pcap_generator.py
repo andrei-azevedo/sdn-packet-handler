@@ -1,3 +1,4 @@
+import os
 from scapy.all import *
 from scapy.layers.inet import IP, TCP
 
@@ -8,7 +9,7 @@ def main():
         time.sleep(0.1)
 
 def write_to_pcap(pkt):
-    wrpcap("temp.pcap", pkt, append=True)
+    wrpcap(os.path.join(os.getcwd(), "temp.pcap"), pkt, append=True)
     
 if __name__ == "__main__":
     main()

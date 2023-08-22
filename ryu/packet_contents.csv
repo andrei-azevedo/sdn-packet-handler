@@ -1,4 +1,21 @@
 source,source_port,dest,dest_port,ipv4_length,payload,payload_length
-10.0.0.2,49012,10.0.0.1,80,187,b'GET / HTTP/1.1\r\nUser-Agent: Wget/1.20.3 (linux-gnu)\r\nAccept: */*\r\nAccept-Encoding: identity\r\nHost: 10.0.0.1\r\nConnection: Keep-Alive\r\n\r\n',135
-10.0.0.1,80,10.0.0.2,49012,207,"b'HTTP/1.0 200 OK\r\nServer: SimpleHTTP/0.6 Python/3.8.10\r\nDate: Tue, 15 Aug 2023 00:24:59 GMT\r\nContent-type: text/html; charset=utf-8\r\nContent-Length: 393\r\n\r\n'",155
-10.0.0.1,80,10.0.0.2,49012,445,"b'<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01//EN"" ""http://www.w3.org/TR/html4/strict.dtd"">\n<html>\n<head>\n<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">\n<title>Directory listing for /</title>\n</head>\n<body>\n<h1>Directory listing for /</h1>\n<hr>\n<ul>\n<li><a href=""packet_contents.csv"">packet_contents.csv</a></li>\n<li><a href=""ryu/"">ryu/</a></li>\n</ul>\n<hr>\n</body>\n</html>\n'",393
+10.0.0.1,20,10.0.0.2,80,163,b'HfARVNkkUCcSO5j49r8pGHnlWrgg5XloJ3Xw5h5mnq0aLzeadMi4p2kPDLdroxr8QEGnfae6hcjW1HUFYXcHgguzKu5HziRou6pDtZIabq4sx9h84x5GwSehn2J',123
+10.0.0.1,20,10.0.0.2,80,157,b'ArJ9ngdgNzCzc4LlXBAIuUUDfm1ISUkMtzR6oNFWlm1J25MjldVyL30bEFWnVLOA8hLibCYoZQ6lfI547sr3PZPpb6ozbyezjaWtacbkFejwUvF0TgRmI',117
+10.0.0.1,20,10.0.0.2,80,153,b'DkWtayo3WKGNBL0mcYeXJsoR1j1UuUeMzUwy1y6bHu3vwpT3dWJsIBnRL2j4XEAQMeo3qINfr3EvhAd17EIVo2OjYvvKZ7SUcwayUJZS7ddQHtqXK',113
+10.0.0.1,20,10.0.0.2,80,173,b'HMXQ89floqt0l5bOMKFehBCnrhHRVcKsSU7Nk1y4cmj1hhwGjXnTJyDgAl6y5XxNC16EF4xTKNWOi9CFOIcjrV63kfbmCvP09waMAcFQdOvcf89i2qHVPfE21mRspjmo9fqBX',133
+10.0.0.1,20,10.0.0.2,80,126,b'Hn4Y61MXUDmYhscdaSK1imSUhA2SqJ8ari1u4Bhrh6YzMMkxvGfSGKzy2h3jz2TNIDXY5P7oFWmSbsgKqcOasg',86
+10.0.0.1,20,10.0.0.2,80,154,b'kFyUHdpCsEILjoKLV09i2CvXcYc6RL6PvPTBmeLSbgFgoxIAkRlFtfA0noJHzlFD76NpiO7zpYmxQx3ZVvCR5j0tsecfvwfNs8AYYJEtGozOaz6Vyd',114
+10.0.0.1,20,10.0.0.2,80,162,b'j1Fu7qixDMVVP0LL7u6QdtZzmAZBIGrk97ARhaIiRmlgFT7WgO7F76hWY99mk4nG4dmKNQedRo0sKrhEGtFY4nNcAjdDjPN1R1iHK0ifNXOdEThFjprbKRpH2U',122
+10.0.0.1,20,10.0.0.2,80,132,b'rsa6OYqvddZk1Y9VWZrR90sAPHEhvyd0iLJvrmWd1o8U8Ji4kKL9tA6qEGmeZvbkjfCMBFhl6w45RpZafpgu1QrcP0C7',92
+10.0.0.1,20,10.0.0.2,80,112,b'xicD579yCnNSl8pUtOs8HjdXUyHUSm5Rt7d2tCvBl0lnERv5PHQerdUDBNNxlfojwxW5tWsb',72
+10.0.0.1,20,10.0.0.2,80,115,b'Qkd1XTEASGB8LX1Xp3xmS6NIkv9rf8yG69MBB7bY8iHZOWZFkkMbWUQi5dAxlWOGQYStoQgQjp4',75
+10.0.0.1,20,10.0.0.2,80,169,b'DMNM58jagB62zzUaDI7DoAc4lMCdMCscIxbrUWETPeGgHZQMnJYHyDdTpsnoH2I62GjZFHWtG69ElVPSBUdCT3nF8JxLSiZMV6HUdtcE90ImUGNvttY1ZPbDJLIUyNpcf',129
+10.0.0.1,20,10.0.0.2,80,129,b'JcbwhY225eBypP0LY9uuzm47alQu6vSU5cI7kZIKYRLDFlKw1126dLRlnEkwPDw9VWXQtQwGyDJf06F0TsIuOoMT4',89
+10.0.0.1,20,10.0.0.2,80,146,b'yodbQOPESkeYqm7c0ao5v738OKQhwqH2ZAa8LOozlyLnAuTBVZbK66jDsRw1LDgJ3mMIc7EiV0k6ZEUVlS09S8TmxB8Ff88cCsAPYWl4Vb',106
+10.0.0.1,20,10.0.0.2,80,190,b'Q5ziPMrvtKDxO4r34IIRwzoAtCEHNTnCApXdLCo4jgSkfodBEFzfGoSKLS63Ojxb9xEeTkPtycB1J8LzsRnzJnnv6HExAWnP2k909eVqUrpBuUuY2Skz3A25fepIWlWdn2fvO35gZqkPu6SA5QrZ7m',150
+10.0.0.1,20,10.0.0.2,80,147,b'za1dkKEekcFaGoW0tnYc2eL0ET2i0NTdqb3xcuI502c5psEFkuEwkm29NyQZSVaBZYXYrzm3KyEjGUUGFAfxcnxR3T8UxBA19HBC2mG2nIL',107
+10.0.0.1,20,10.0.0.2,80,121,b'oDngfDGqgYIWAogKUoFv6PUYHB5yks1omoty68niNcUx2BTuDmdlU60k6gzD21eVwO5AWxogiazdHsz2K',81
+10.0.0.1,20,10.0.0.2,80,175,b'YVxFrbJmHLqyPyGRjGkrxQHn42MmYJNcHU5wpnHdI3xzTz8DkR7zVCI4xFfqkYw61NgInP97R8ZzRAQlySAkFsOBORPgLWeReac2Rc5QMXohAjaNUZJcE8oyR7Lg2Govo8545cm',135
+10.0.0.1,20,10.0.0.2,80,158,b'pNhZsfST3eCZfoI6ybK0t5HkEqfAyVi4fF2d4S7P2zkfySdHEVtYApFoT25NMpGazk7ypzFYjKEPha6HlPnJ4v1yMpnoxVi9UWiPAGl7AiBeBskfspceWB',118
+10.0.0.1,20,10.0.0.2,80,146,b'JQ8CuDVY5VPTA3jfSosq93CL2L8eDFeP9PY05fuRELgK6oNhpiwON23zAxeSi2IKrSqm2PefFDPcXpye0KihDBKszBBGWYijnlKBU9ieY4',106
+10.0.0.1,20,10.0.0.2,80,160,b'FrhhgXjkH71YSC0D4Eo61azmcjMHAL3BDojzcLWPCSheeI3cZA5K5Mj6jtsmX3gR3edKybyRvOFUSJJJqTk52ewWenbfEfemR9VUvHFFo4qC1hDOwDCVFrr8',120
